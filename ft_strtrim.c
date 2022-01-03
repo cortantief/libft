@@ -6,11 +6,12 @@
 /*   By: sharboul <sharboul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/18 04:54:47 by sharboul          #+#    #+#             */
-/*   Updated: 2022/01/03 12:37:04 by sharboul         ###   ########.fr       */
+/*   Updated: 2022/01/03 12:44:58 by sharboul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
+#include "libft.h"
 #define INSET 1
 
 static unsigned int	is_inset(char const *set, char chr)

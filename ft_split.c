@@ -6,7 +6,7 @@
 /*   By: sharboul <sharboul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/18 06:30:28 by sharboul          #+#    #+#             */
-/*   Updated: 2022/01/03 12:22:27 by sharboul         ###   ########.fr       */
+/*   Updated: 2022/01/03 12:52:52 by sharboul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,7 @@ static char	**string_splitter(char **tab, char const *s, char sep)
 			c++;
 		if (start < c)
 		{
-			tab[i++] = ft_substr(s, start, c - start);
+			tab[i] = ft_substr(s, start, c - start);
 			if (!tab[i++])
 				return (free_tab(tab));
 		}
